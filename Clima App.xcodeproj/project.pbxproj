@@ -56,6 +56,7 @@
 		6F6DB36127EFC0EF00056539 /* Clima App */ = {
 			isa = PBXGroup;
 			children = (
+				6F6DB37627EFC77A00056539 /* Model */,
 				6F6DB36227EFC0EF00056539 /* AppDelegate.swift */,
 				6F6DB36427EFC0EF00056539 /* SceneDelegate.swift */,
 				6F6DB36627EFC0EF00056539 /* ViewController.swift */,
@@ -65,6 +66,13 @@
 				6F6DB37027EFC0F400056539 /* Info.plist */,
 			);
 			path = "Clima App";
+			sourceTree = "<group>";
+		};
+		6F6DB37627EFC77A00056539 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +311,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
